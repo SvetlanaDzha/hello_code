@@ -25,3 +25,7 @@ return result;
 }
 string newText = Replase(text, ' ', '+');
 Console.WriteLine(newText);
+Console.WriteLine();
+newText = Replase(newText, 'к', 'К');
+Console.WriteLine(newText);
+Console.WriteLine();
